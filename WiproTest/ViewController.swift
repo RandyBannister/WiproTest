@@ -67,7 +67,28 @@ class ViewController: UIViewController {
 
 extension ViewController {
     @objc func createUserClicked() {
+        let helper = InputConfirmHelper()
+        let emailCheck = helper.checkEmail(email: emailField.text ?? "")
+        let passwordCheck = helper.passwordCheck(pwd: passwordField.text ?? "")
         
+        if !emailCheck {
+            showAlert("Email Wrong")
+        } else if passwordCheck != .right {
+            showAlert(passwordCheck.rawValue)
+        } else if passwordField.text != confirmField.text {
+            showAlert("Password not matched")
+        } else {
+            showAlert("Success")
+        }
+    }
+    
+    private func showAlert(_ text: String) {
+        let warning = UIAlertController(title: "Ok", message: text, preferredStyle: .alert)
+        warning.addAction(UIAlertAction(title: "OK", style: .cancel, handler: { [self] (action: UIAlertAction) in
+            dismiss(animated: true)
+        }))
+        present(warning, animated: true, completion: nil)
+
     }
 }
 

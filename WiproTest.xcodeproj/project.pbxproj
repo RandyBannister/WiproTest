@@ -18,6 +18,7 @@
 		890DD44A287CB64500E63D9B /* WiproTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890DD449287CB64500E63D9B /* WiproTestTests.swift */; };
 		890DD454287CB64500E63D9B /* WiproTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890DD453287CB64500E63D9B /* WiproTestUITests.swift */; };
 		890DD456287CB64500E63D9B /* WiproTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890DD455287CB64500E63D9B /* WiproTestUITestsLaunchTests.swift */; };
+		890DD463287CBC1500E63D9B /* InputConfirmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890DD462287CBC1500E63D9B /* InputConfirmHelper.swift */; };
 		DA8A3B54E69366FAF758E3F4 /* Pods_WiproTest_WiproTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2195062BF0EFC9848D356279 /* Pods_WiproTest_WiproTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		890DD44F287CB64500E63D9B /* WiproTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890DD453287CB64500E63D9B /* WiproTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproTestUITests.swift; sourceTree = "<group>"; };
 		890DD455287CB64500E63D9B /* WiproTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		890DD462287CBC1500E63D9B /* InputConfirmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputConfirmHelper.swift; sourceTree = "<group>"; };
 		B17D5CC3ADA8D5427C1D5513 /* Pods-WiproTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTestTests.release.xcconfig"; path = "Target Support Files/Pods-WiproTestTests/Pods-WiproTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		D901A8CC866F3517549D87C3 /* Pods-WiproTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTest.release.xcconfig"; path = "Target Support Files/Pods-WiproTest/Pods-WiproTest.release.xcconfig"; sourceTree = "<group>"; };
 		FEB555CC9885BE58A5E4B386 /* Pods-WiproTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WiproTest.debug.xcconfig"; path = "Target Support Files/Pods-WiproTest/Pods-WiproTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				890DD432287CB64300E63D9B /* AppDelegate.swift */,
 				890DD434287CB64300E63D9B /* SceneDelegate.swift */,
 				890DD436287CB64300E63D9B /* ViewController.swift */,
+				890DD462287CBC1500E63D9B /* InputConfirmHelper.swift */,
 				890DD438287CB64300E63D9B /* Main.storyboard */,
 				890DD43B287CB64500E63D9B /* Assets.xcassets */,
 				890DD43D287CB64500E63D9B /* LaunchScreen.storyboard */,
@@ -164,7 +167,6 @@
 				11CE8BF6AE656511A0BBEF8E /* Pods-WiproTestTests.debug.xcconfig */,
 				B17D5CC3ADA8D5427C1D5513 /* Pods-WiproTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				890DD437287CB64300E63D9B /* ViewController.swift in Sources */,
+				890DD463287CBC1500E63D9B /* InputConfirmHelper.swift in Sources */,
 				890DD433287CB64300E63D9B /* AppDelegate.swift in Sources */,
 				890DD435287CB64300E63D9B /* SceneDelegate.swift in Sources */,
 			);
